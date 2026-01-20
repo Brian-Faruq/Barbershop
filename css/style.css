@@ -1,0 +1,94 @@
+/* Reset default */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #111;
+    color: white;
+  }
+  
+
+  
+  
+  
+  .main {
+    margin-left: 60px; /* sesuaikan dengan sidebar */
+    padding: 30px;
+  }
+  
+    
+  
+  /* Tabel */
+  table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  th, td {
+    padding: 10px;
+    border: 1px solid #444;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #222;
+    color: #fff;
+  }
+  
+  td img {
+    max-width: 80px;
+    border-radius: 8px;
+  }
+  
+  /* Tombol */
+  button, a.button {
+    background-color: #444;
+    color: white;
+    padding: 8px 16px;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    transition: 0.2s;
+  }
+  
+  button:hover, a.button:hover {
+    background-color: #666;
+  }
+  
+  /* Form */
+  form input[type="text"],
+  form input[type="file"] {
+    width: 100%;
+    padding: 8px;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    border: 1px solid #555;
+    background-color: #222;
+    color: white;
+    border-radius: 4px;
+  }
+  
+  /* Video Beranda */
+  .beranda-video {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    filter: brightness(50%);
+    z-index: -1;
+  }
+  
+  .beranda-content {
+    position: relative;
+    z-index: 1;
+    padding: 40px;
+    color: white;
+  }
+  
